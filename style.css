@@ -1,0 +1,98 @@
+.highscore h2 a, .timer{
+    text-decoration: none;
+    color: rgb(140, 60, 206);
+}
+nav{
+    display: flex;
+    margin: 10px 20px;
+    justify-content: space-between;
+}
+main{
+    margin-top: 10%;
+    text-align: center;
+}
+main h1{
+    font-size: 70px;
+}
+main p{
+    font-size: 20px;
+}
+main .message{
+    width: 50%;
+    margin: 0 auto;
+}
+button{
+    background-color: rgb(140, 60, 206);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.hide{
+    display: none;
+}
+#question-card{
+    width: 50%;
+    margin: 10% auto;
+}
+.options-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.options{
+    background-color: rgb(140, 60, 206);
+    color: whitesmoke;
+    width: fit-content;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-align: left;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.options:hover, #leaderBoard div:hover{
+    background-color: rgb(227, 213, 238);
+    color: black;
+}
+.over-container{
+    margin: 10% auto;
+    width: fit-content;
+}
+.over-container h1, #score-card h1{
+    font-size: 50px;
+}
+.initial-input{
+    display: flex;
+}
+#initialsBox{
+    width: 200px;
+    height: 30px;
+    margin: auto 20px;
+}
+#submitBtn{
+    height: 50px;
+    margin: auto 0;
+}
+#leader-board{
+    margin: 0 auto;
+}
+#score-card{
+    margin: 10% auto;
+    width: fit-content
+}
+#score-card button{
+    margin: 10px 40px;
+}
+#leaderBoard div{
+    background-color: rgb(140, 60, 206);
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+#leaderBoard{
+    margin-bottom: 40px;
+}
