@@ -17,7 +17,7 @@ var questionBank = [
     {
         question: "How to write an IF statement in JavaScript?",
         selection: ["if i = 5", "if (i == 5)", "if i = 5 then", "if i == 5 then"],
-        answer: "a "
+        answer: "b"
     },
     {
         question: "What is the correct syntax for referring to an external script called 'xxx.js'?",
