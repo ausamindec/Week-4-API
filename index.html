@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz-App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="highscore">
+        <h2><a href="#" onclick="showHighScores()">View Highscores</a></h2>
+    </div>
+    <div class="timer"><h2>Timer: 00</h2></div>
+    </nav>
+    <main>
+        <h1>Coding Quiz Challenge</h1>
+        <div class="message">
+            <p>Try to answer the following cod-related questions withing the time limit. 
+            Keep in mind that incorrect answers will penalize your score-time by 10 seconds!</p>
+        </div>
+        
+        <button id="start-quiz">Start Quiz</button>
+    </main>
+    <section id="questions">
+        <div id="question-card">
+            <div class="question-container"><h2></h2></div>
+            <div class="options-container hide">
+                <button class="options hide" id="a"></button>
+                <button class="options hide" id="b"></button>
+                <button class="options hide" id="c"></button>
+                <button class="options hide" id="d"></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="over" class="hide">
+        <div class="over-container">
+            <h1>All done!</h1>
+            <h2>Your final score is <span id="score"></span></h4>
+            <div class="initial-input">
+                <label for="initials"><h2>Enter Initials: </h2></label>
+                <input type="text" name="initials" id="initialsBox">
+                <button type="submit" id="submitBtn">Submit</button>
+            </div>
+        </div>
+
+    </section>
+    <section id="leader-board">
+        <div id="score-card" class="hide">
+            <h1>Highscores</h1>
+            <div id="leaderBoard"></div>
+            <button onclick="handleGoBack()">Go Back</button>
+            <button onclick="handleClear()">Clear Highscores</button>
+        </div>
+    </section>
+<script src="./scripts/questions.js"></script>
+<script src="./scripts/index.js"></script>
+</body>
+</html>
